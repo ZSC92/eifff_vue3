@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  1111111111111
+  我是APP
 </template>
 
 <style scoped></style>
