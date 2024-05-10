@@ -18,5 +18,8 @@ import globalComponent from '@/components'
 // 安装自定义插件
 app.use(globalComponent)
 
+// 引入模板的全局样式
+import '@/style/index.sass'
+
 // console.log(import.meta.env)
 app.mount('#app')
