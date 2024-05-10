@@ -12,5 +12,11 @@ app.use(ElementPlus, {
   locale: zhCn,
   // 国际化配置
 })
+
+// 引入自定义插件对象：注册整个项目全局组件
+import globalComponent from '@/components'
+// 安装自定义插件
+app.use(globalComponent)
+
 // console.log(import.meta.env)
 app.mount('#app')

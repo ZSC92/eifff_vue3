@@ -1,12 +1,11 @@
 <template>
   <h1>SVG测试</h1>
-  <svg>
-    <use xlink:href="#icon-food"></use>
-  </svg>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped></style>
+<style scoped lang="scss">
+h1 {
+  color: red;
+}
+</style>
