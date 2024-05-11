@@ -19,7 +19,7 @@ import globalComponent from '@/components'
 app.use(globalComponent)
 
 // 引入模板的全局样式
-import '@/style/index.sass'
+import '@/styles/index.scss'
 
 // console.log(import.meta.env)
 app.mount('#app')

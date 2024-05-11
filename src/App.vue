@@ -6,6 +6,6 @@
 
 <style scoped lang="scss">
 h1 {
-  color: red;
+  color: $base_color;
 }
 </style>
